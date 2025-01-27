@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="高质量的内衣，专注舒适与时尚">
+    <meta name="keywords" content="内衣, 文胸, 睡衣, 舒适, 时尚">
+    <title>内衣商城</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f2f2f2;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6f61;
+        }
+        .container {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            padding: 0 10px;
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>内衣商城</h1>
+        <p>高质量的内衣，舒适与时尚并存</p>
+    </header>
+
+    <nav>
+        <a href="#">首页</a>
+        <a href="#categories">商品分类</a>
+        <a href="#about">关于我们</a>
+        <a href="#contact">联系我们</a>
+    </nav>
+
+    <section id="categories" class="container">
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="文胸">
+            <h3>文胸</h3>
+            <p>各种款式的文胸，舒适又时尚。</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="内裤">
+            <h3>内裤</h3>
+            <p>舒适合身的内裤系列。</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="睡衣">
+            <h3>睡衣</h3>
+            <p>柔软舒适的睡衣，助您享受每一个夜晚。</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x200" alt="配件">
+            <h3>配件</h3>
+            <p>内衣相关配件，如肩带、胸垫等。</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 内衣商城. 版权所有.</p>
+    </footer>
+</body>
+</html>
